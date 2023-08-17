@@ -1,9 +1,8 @@
 import React from 'react'
 import Card from "react-bootstrap/Card";
-import Button from 'react-bootstrap/Button';
 import Tags from './Tags';
 
-const MyCard = ({image, name, description, color, texto}) => {
+const Tarjeta = ({image, name, description, color, texto}) => {
   return (
     <div>
       <Card className='shadow-lg'>
@@ -20,4 +19,4 @@ const MyCard = ({image, name, description, color, texto}) => {
   )
 }
 
-export default MyCard
+export default Tarjeta
