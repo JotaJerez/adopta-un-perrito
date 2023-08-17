@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({text}) => {
   return (
     <footer className='text-center p-5'>
-      Fundación dedicada a la adopción de perritos. Todos los Derechos Reservados.
+      {text}
     </footer>
   )
 }

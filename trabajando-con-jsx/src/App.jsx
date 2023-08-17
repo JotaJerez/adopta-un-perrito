@@ -37,7 +37,7 @@ function App() {
         />
       </main> 
 
-      <Footer />
+      <Footer text="Fundación dedicada a la adopción de perritos. Todos los Derechos Reservados."/>
     </>
   )
 }
